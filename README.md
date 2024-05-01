@@ -2,6 +2,8 @@
 
 Welcome to the Sundown Studio Clone project! This open-source project aims to replicate the captivating website animation of [sundown-studio.com](https://www.sundown-studio.com/) using HTML, CSS, and JavaScript. The animation effects are based on GSAP (GreenSock Animation Platform) and Locomotive Scroll, among other libraries.
 
+![Sundown Studio Clone](https://www.bing.com/th/id/OGC.21116158daaeb1459b4ec0758505e1ad?pid=1.7&rurl=https%3a%2f%2fardas-it.com%2fuploads%2fimages%2fblogs%2fgiph.gif&ehk=V6VOuccq%2fm3KvNXlWdIHlW8jrUi3mU4oSh%2fIzerQCWE%3d)
+
 ## About
 
 The goal of this project is to create an open-source version of the Sundown Studio website, allowing developers, designers, and enthusiasts to collaborate, contribute, and enhance the animation experience. Whether you're passionate about web development, animation, or open-source collaboration, there's a place for you in this project.
@@ -15,7 +17,7 @@ We welcome contributions from developers of all skill levels. Here's how you can
 2. **Clone the Repository**: Clone your forked repository to your local machine using Git.
 
    ```
-   git clone [link](https://github.com/aditya132p/SUNDOWN-STUDIO)
+   git clone https://github.com/your-username/sundown-studio-clone.git
    ```
 
 3. **Explore the Code**: Familiarize yourself with the project structure and the animation techniques used in the codebase.
