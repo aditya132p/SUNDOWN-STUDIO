@@ -1,4 +1,6 @@
+
 # Sundown Studio Clone Website with Animation
+
 
 Welcome to the Sundown Studio Clone project! This open-source project aims to replicate the captivating website animation of [sundown-studio.com](https://www.sundown-studio.com/) using HTML, CSS, and JavaScript. The animation effects are based on GSAP (GreenSock Animation Platform) and Locomotive Scroll, among other libraries.
 
