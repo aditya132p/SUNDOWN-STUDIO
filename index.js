@@ -1,4 +1,38 @@
 var tl = gsap.timeline();
+tl.from('.wrapper h2:nth-child(1)',{
+  opacity:0,
+  duration:0.5,
+  delay:0.6
+}).to('.wrapper h2:nth-child(1)',{
+  opacity:0,
+  duration:0.5,
+  delay:0.6,
+}).from('.wrapper h2:nth-child(2)',{
+  opacity:0,
+  duration:0.5,
+  delay:0.6
+}).to('.wrapper h2:nth-child(2)',{
+  opacity:0,
+  duration:0.5,
+  delay:0.6,
+  // display:'none',
+}) .from('.wrapper h2:nth-child(3)',{
+  opacity:0,
+  duration:.5,
+ 
+}).to('.wrapper h2:nth-child(3)',{
+  opacity:0,
+  duration:.5,
+  
+  display:'none',
+}).to('.wrapper',{
+  y:"-100%",
+  duration:1,
+ 
+})
+
+
+
 tl.to(".text-marque",{
    x: '-195%', // Move the cloned content to the left
     duration: 8, // Adjust the duration as needed
@@ -29,18 +63,26 @@ gsap.to(".shape3",{
 
 document.querySelectorAll('.project-txt').forEach(element => {
   element.addEventListener('mouseenter', function (event) {
-    // Traverse the DOM to find the <img> tag within the clicked .project-txt element
+    console.log(event)
     const imgTag = event.currentTarget.querySelector('img');
-    imgTag.style.display="block";
-    imgTag.style.zIndex="5";
+    gsap.to(imgTag,{
+   opacity:"1",
+    duration:0.6,
+    borderRadius:"20px",
+   
+})
+    
   });
 });
 
 document.querySelectorAll('.project-txt').forEach(element => {
   element.addEventListener('mouseleave', function (event) {
-    // Traverse the DOM to find the <img> tag within the clicked .project-txt element
+   
     const imgTag = event.currentTarget.querySelector('img');
-    imgTag.style.display="none"
+     gsap.to(imgTag,{
+  opacity:"0",
+    duration:0.3,
+})
   });
 });
 
